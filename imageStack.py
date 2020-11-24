@@ -35,6 +35,11 @@ for _ in range(len(collage)):
 
             newImage[a+i][b+j] = stack[rand][a+i][b+j]
 
+# Store the newly created image in a stack
+
+newStack = []
+newStack.append(newImage)
+
 # Convert the created array to a new image
 
 newImage = Image.fromarray(newImage)
